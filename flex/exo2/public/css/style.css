@@ -1,0 +1,28 @@
+section{
+    background-color: peru;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    background-color: orangered;
+    margin: 5px;
+    height: 200px;
+    flex: 2.5;
+    text-align: left;
+}
+
+.col1{
+    flex: 1;
+}
+.col3{
+    flex: 3;
+}
+
+p{
+    margin: auto;
+    padding: 40px;
+    font-size: 15px;
+}

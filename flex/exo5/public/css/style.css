@@ -1,0 +1,39 @@
+header{
+    height: 100px;
+    width: auto;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.container>*{
+    display: flex;
+    background-color: tomato;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.container>nav{
+    display: flex;
+    flex: 1;
+    order: -2;
+}
+
+.container>article{
+display: flex;
+flex: 2.5;
+}
+
+footer{
+    height: 100px;
+    width: auto;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 10px;
+}

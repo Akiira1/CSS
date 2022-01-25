@@ -1,0 +1,24 @@
+
+
+h1{
+color: tomato;
+}
+
+h2{
+    color: royalblue;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: tomato;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+li{
+    font-style: italic;
+}
+

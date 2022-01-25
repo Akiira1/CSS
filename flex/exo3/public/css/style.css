@@ -1,0 +1,15 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.row{
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+}

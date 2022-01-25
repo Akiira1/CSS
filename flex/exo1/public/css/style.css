@@ -1,0 +1,23 @@
+.conatainer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    flex: 1;
+    height: 150px;
+}
+
+.col4{
+    flex: 2;
+}
+
+p{
+    margin: auto;
+    color: white
+}

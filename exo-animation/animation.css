@@ -1,0 +1,20 @@
+div {
+  animation: devant 2s 1s infinite alternate-reverse;
+  /* animation-direction: alternate; */
+}
+@keyframes devant {
+    0% {left: 0px; top: 0px}
+    25% {left: 200px; top: 0px}
+    50% {top: 200px; left: 200px;}
+    75% {left: 0px; top: 200px;}
+    100% {left: 0px; top: 0px;}
+}
+
+#bounce-title{
+  animation: saut 1s ease infinite alternate;
+}
+
+@keyframes saut {
+    from{transform: translateY(0) scaleY(0.5);}
+    to{transform: translateY(-200px) scaleY(2);}
+}

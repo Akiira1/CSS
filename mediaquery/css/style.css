@@ -1,0 +1,118 @@
+nav ul{
+    display:flex;
+    justify-content: space-around; 
+    list-style-type: none;
+}
+
+
+/* exo1 */
+@media screen and (min-width: 1250px){
+    body>ul:first-of-type>li:first-of-type{
+        color: green;
+    }
+    body>ul:first-of-type>li:last-of-type{
+        color: blue;
+    }
+}
+/* fin exo1 */
+
+/* exo2 */
+@media screen and (max-width: 1250px) {
+    body>ul:nth-of-type(2)>li:first-of-type{
+        color: orange;
+    }
+    body>ul:nth-of-type(2)>li:last-of-type{
+        color: red;
+    }
+}
+/* fin exo 2 */
+
+/* exo3 */
+@media screen and (max-width: 1000px){
+    body>ul:nth-of-type(3)>li:first-of-type{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width: 1250px){
+    body>ul:nth-of-type(3)>li:last-of-type{
+        color: blue;
+        font-style: italic;
+    }
+}
+/* fin exo3 */
+
+/* exo4 */
+@media screen and (max-width: 800px){
+    h2:nth-of-type(4){
+        border: 2px solid red;
+        color: green;
+    }
+}
+@media screen and (min-width: 900px){
+    h2:nth-of-type(4){
+        border: 2px solid red;
+        color: green;
+    }
+}
+/* fin exo4 */
+
+/* exo5 */
+@media screen and (min-width:900px) and (max-width:1250px){
+    h2:nth-of-type(5){
+        color: red;
+        border: 2px solid red;
+    }
+    ul:nth-of-type(5)>li{
+        color: red;
+        border: 2px solid red;
+    }
+}
+/* fin exo5 */
+
+/* exo6 */
+#exo6{
+    background-image: url(../images/tartine.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width:900px){
+    #exo6{
+        width: 125px;
+        height: 125px;
+    }
+}
+/* fin exo6 */
+
+/* exo7 */
+@media print {
+    h2{
+        color: black;
+    }
+    img{
+        display: none;
+    }
+}
+/* fin exo7 */
+
+/* exo8 */
+@media screen and (max-width: 576px){
+    nav>ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav>ul>li>a:hover{
+        color: orange;
+    }
+}
+@media screen and (min-width: 1250px){
+    nav>ul>li>a{
+        font-size: 150%;
+    }
+    nav>ul>li>a:hover{
+        color: green;
+    }
+}
+
+/* fin exo8 */

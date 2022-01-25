@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  display: flex;
+  justify-content: center;
+}
+header nav p {
+  color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
